@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC3AAA81E76271200DCD603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAA71E76271200DCD603 /* AppDelegate.swift */; };
+		3DC3AAAA1E76271200DCD603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAA91E76271200DCD603 /* ViewController.swift */; };
+		3DC3AAAD1E76271200DCD603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AAAB1E76271200DCD603 /* Main.storyboard */; };
+		3DC3AAAF1E76271200DCD603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AAAE1E76271200DCD603 /* Assets.xcassets */; };
+		3DC3AAB21E76271200DCD603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AAB01E76271200DCD603 /* LaunchScreen.storyboard */; };
+		3DC3AABD1E76271200DCD603 /* TrivitBuild1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AABC1E76271200DCD603 /* TrivitBuild1Tests.swift */; };
+		3DC3AAC81E76271200DCD603 /* TrivitBuild1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAC71E76271200DCD603 /* TrivitBuild1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC3AAB91E76271200DCD603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC3AA9C1E76271200DCD603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC3AAA31E76271200DCD603;
+			remoteInfo = TrivitBuild1;
+		};
+		3DC3AAC41E76271200DCD603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC3AA9C1E76271200DCD603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC3AAA31E76271200DCD603;
+			remoteInfo = TrivitBuild1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC3AAA41E76271200DCD603 /* TrivitBuild1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivitBuild1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3AAA71E76271200DCD603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DC3AAA91E76271200DCD603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DC3AAAC1E76271200DCD603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC3AAAE1E76271200DCD603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DC3AAB11E76271200DCD603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DC3AAB31E76271200DCD603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC3AAB81E76271200DCD603 /* TrivitBuild1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivitBuild1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3AABC1E76271200DCD603 /* TrivitBuild1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivitBuild1Tests.swift; sourceTree = "<group>"; };
+		3DC3AABE1E76271200DCD603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivitBuild1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC3AAC71E76271200DCD603 /* TrivitBuild1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivitBuild1UITests.swift; sourceTree = "<group>"; };
+		3DC3AAC91E76271200DCD603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC3AAA11E76271200DCD603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AAB51E76271200DCD603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AAC01E76271200DCD603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC3AA9B1E76271200DCD603 = {
+			isa = PBXGroup;
+			children = (
+				3DC3AAA61E76271200DCD603 /* TrivitBuild1 */,
+				3DC3AABB1E76271200DCD603 /* TrivitBuild1Tests */,
+				3DC3AAC61E76271200DCD603 /* TrivitBuild1UITests */,
+				3DC3AAA51E76271200DCD603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC3AAA51E76271200DCD603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AAA41E76271200DCD603 /* TrivitBuild1.app */,
+				3DC3AAB81E76271200DCD603 /* TrivitBuild1Tests.xctest */,
+				3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC3AAA61E76271200DCD603 /* TrivitBuild1 */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AAA71E76271200DCD603 /* AppDelegate.swift */,
+				3DC3AAA91E76271200DCD603 /* ViewController.swift */,
+				3DC3AAAB1E76271200DCD603 /* Main.storyboard */,
+				3DC3AAAE1E76271200DCD603 /* Assets.xcassets */,
+				3DC3AAB01E76271200DCD603 /* LaunchScreen.storyboard */,
+				3DC3AAB31E76271200DCD603 /* Info.plist */,
+			);
+			path = TrivitBuild1;
+			sourceTree = "<group>";
+		};
+		3DC3AABB1E76271200DCD603 /* TrivitBuild1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AABC1E76271200DCD603 /* TrivitBuild1Tests.swift */,
+				3DC3AABE1E76271200DCD603 /* Info.plist */,
+			);
+			path = TrivitBuild1Tests;
+			sourceTree = "<group>";
+		};
+		3DC3AAC61E76271200DCD603 /* TrivitBuild1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC3AAC71E76271200DCD603 /* TrivitBuild1UITests.swift */,
+				3DC3AAC91E76271200DCD603 /* Info.plist */,
+			);
+			path = TrivitBuild1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC3AAA31E76271200DCD603 /* TrivitBuild1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3AACC1E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1" */;
+			buildPhases = (
+				3DC3AAA01E76271200DCD603 /* Sources */,
+				3DC3AAA11E76271200DCD603 /* Frameworks */,
+				3DC3AAA21E76271200DCD603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrivitBuild1;
+			productName = TrivitBuild1;
+			productReference = 3DC3AAA41E76271200DCD603 /* TrivitBuild1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC3AAB71E76271200DCD603 /* TrivitBuild1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3AACF1E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1Tests" */;
+			buildPhases = (
+				3DC3AAB41E76271200DCD603 /* Sources */,
+				3DC3AAB51E76271200DCD603 /* Frameworks */,
+				3DC3AAB61E76271200DCD603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3AABA1E76271200DCD603 /* PBXTargetDependency */,
+			);
+			name = TrivitBuild1Tests;
+			productName = TrivitBuild1Tests;
+			productReference = 3DC3AAB81E76271200DCD603 /* TrivitBuild1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DC3AAC21E76271200DCD603 /* TrivitBuild1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC3AAD21E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1UITests" */;
+			buildPhases = (
+				3DC3AABF1E76271200DCD603 /* Sources */,
+				3DC3AAC01E76271200DCD603 /* Frameworks */,
+				3DC3AAC11E76271200DCD603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC3AAC51E76271200DCD603 /* PBXTargetDependency */,
+			);
+			name = TrivitBuild1UITests;
+			productName = TrivitBuild1UITests;
+			productReference = 3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC3AA9C1E76271200DCD603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRIVIT;
+				TargetAttributes = {
+					3DC3AAA31E76271200DCD603 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZLLMX3ME8;
+						ProvisioningStyle = Automatic;
+					};
+					3DC3AAB71E76271200DCD603 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZLLMX3ME8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DC3AAA31E76271200DCD603;
+					};
+					3DC3AAC21E76271200DCD603 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZLLMX3ME8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DC3AAA31E76271200DCD603;
+					};
+				};
+			};
+			buildConfigurationList = 3DC3AA9F1E76271200DCD603 /* Build configuration list for PBXProject "TrivitBuild1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC3AA9B1E76271200DCD603;
+			productRefGroup = 3DC3AAA51E76271200DCD603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC3AAA31E76271200DCD603 /* TrivitBuild1 */,
+				3DC3AAB71E76271200DCD603 /* TrivitBuild1Tests */,
+				3DC3AAC21E76271200DCD603 /* TrivitBuild1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC3AAA21E76271200DCD603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3AAB21E76271200DCD603 /* LaunchScreen.storyboard in Resources */,
+				3DC3AAAF1E76271200DCD603 /* Assets.xcassets in Resources */,
+				3DC3AAAD1E76271200DCD603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AAB61E76271200DCD603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AAC11E76271200DCD603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC3AAA01E76271200DCD603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3AAAA1E76271200DCD603 /* ViewController.swift in Sources */,
+				3DC3AAA81E76271200DCD603 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AAB41E76271200DCD603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3AABD1E76271200DCD603 /* TrivitBuild1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC3AABF1E76271200DCD603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC3AAC81E76271200DCD603 /* TrivitBuild1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC3AABA1E76271200DCD603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC3AAA31E76271200DCD603 /* TrivitBuild1 */;
+			targetProxy = 3DC3AAB91E76271200DCD603 /* PBXContainerItemProxy */;
+		};
+		3DC3AAC51E76271200DCD603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC3AAA31E76271200DCD603 /* TrivitBuild1 */;
+			targetProxy = 3DC3AAC41E76271200DCD603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC3AAAB1E76271200DCD603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC3AAAC1E76271200DCD603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC3AAB01E76271200DCD603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC3AAB11E76271200DCD603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC3AACA1E76271200DCD603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DC3AACB1E76271200DCD603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC3AACD1E76271200DCD603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DC3AACE1E76271200DCD603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DC3AAD01E76271200DCD603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivitBuild1.app/TrivitBuild1";
+			};
+			name = Debug;
+		};
+		3DC3AAD11E76271200DCD603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrivitBuild1.app/TrivitBuild1";
+			};
+			name = Release;
+		};
+		3DC3AAD31E76271200DCD603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrivitBuild1;
+			};
+			name = Debug;
+		};
+		3DC3AAD41E76271200DCD603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = TrivitBuild1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TrivitBuild1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC3AA9F1E76271200DCD603 /* Build configuration list for PBXProject "TrivitBuild1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3AACA1E76271200DCD603 /* Debug */,
+				3DC3AACB1E76271200DCD603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC3AACC1E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3AACD1E76271200DCD603 /* Debug */,
+				3DC3AACE1E76271200DCD603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC3AACF1E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3AAD01E76271200DCD603 /* Debug */,
+				3DC3AAD11E76271200DCD603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC3AAD21E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC3AAD31E76271200DCD603 /* Debug */,
+				3DC3AAD41E76271200DCD603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC3AA9C1E76271200DCD603 /* Project object */;
+}
