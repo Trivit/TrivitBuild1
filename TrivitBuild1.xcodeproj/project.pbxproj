@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D625B761E7754870098CC91 /* PeakCadenceArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D625B751E7754870098CC91 /* PeakCadenceArray.swift */; };
 		3DC3AAA81E76271200DCD603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAA71E76271200DCD603 /* AppDelegate.swift */; };
 		3DC3AAAA1E76271200DCD603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAA91E76271200DCD603 /* ViewController.swift */; };
 		3DC3AAAD1E76271200DCD603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AAAB1E76271200DCD603 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		3DC3AAB21E76271200DCD603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC3AAB01E76271200DCD603 /* LaunchScreen.storyboard */; };
 		3DC3AABD1E76271200DCD603 /* TrivitBuild1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AABC1E76271200DCD603 /* TrivitBuild1Tests.swift */; };
 		3DC3AAC81E76271200DCD603 /* TrivitBuild1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC3AAC71E76271200DCD603 /* TrivitBuild1UITests.swift */; };
+		3DD8585E1E76299900E19BEB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8585C1E76299900E19BEB /* Interface.storyboard */; };
+		3DD858601E76299900E19BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8585F1E76299900E19BEB /* Assets.xcassets */; };
+		3DD858671E76299900E19BEB /* TrivitBuild1watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3DD858661E76299900E19BEB /* TrivitBuild1watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DD8586E1E76299900E19BEB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8586D1E76299900E19BEB /* InterfaceController.swift */; };
+		3DD858701E76299900E19BEB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8586F1E76299900E19BEB /* ExtensionDelegate.swift */; };
+		3DD858721E76299900E19BEB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD858711E76299900E19BEB /* NotificationController.swift */; };
+		3DD858741E76299900E19BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD858731E76299900E19BEB /* Assets.xcassets */; };
+		3DD858781E76299900E19BEB /* TrivitBuild1watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3DD8585A1E76299900E19BEB /* TrivitBuild1watch.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +40,49 @@
 			remoteGlobalIDString = 3DC3AAA31E76271200DCD603;
 			remoteInfo = TrivitBuild1;
 		};
+		3DD858681E76299900E19BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC3AA9C1E76271200DCD603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD858651E76299900E19BEB;
+			remoteInfo = "TrivitBuild1watch Extension";
+		};
+		3DD858761E76299900E19BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC3AA9C1E76271200DCD603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD858591E76299900E19BEB;
+			remoteInfo = TrivitBuild1watch;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3DD8587E1E76299900E19BEB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DD858671E76299900E19BEB /* TrivitBuild1watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD858801E76299900E19BEB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3DD858781E76299900E19BEB /* TrivitBuild1watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3D625B751E7754870098CC91 /* PeakCadenceArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeakCadenceArray.swift; sourceTree = "<group>"; };
 		3DC3AAA41E76271200DCD603 /* TrivitBuild1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivitBuild1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3AAA71E76271200DCD603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC3AAA91E76271200DCD603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +96,17 @@
 		3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrivitBuild1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC3AAC71E76271200DCD603 /* TrivitBuild1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrivitBuild1UITests.swift; sourceTree = "<group>"; };
 		3DC3AAC91E76271200DCD603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD8585A1E76299900E19BEB /* TrivitBuild1watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrivitBuild1watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD8585D1E76299900E19BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3DD8585F1E76299900E19BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD858611E76299900E19BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD858661E76299900E19BEB /* TrivitBuild1watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrivitBuild1watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD8586C1E76299900E19BEB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3DD8586D1E76299900E19BEB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		3DD8586F1E76299900E19BEB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3DD858711E76299900E19BEB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3DD858731E76299900E19BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD858751E76299900E19BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +131,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DD858631E76299900E19BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +147,8 @@
 				3DC3AAA61E76271200DCD603 /* TrivitBuild1 */,
 				3DC3AABB1E76271200DCD603 /* TrivitBuild1Tests */,
 				3DC3AAC61E76271200DCD603 /* TrivitBuild1UITests */,
+				3DD8585B1E76299900E19BEB /* TrivitBuild1watch */,
+				3DD8586A1E76299900E19BEB /* TrivitBuild1watch Extension */,
 				3DC3AAA51E76271200DCD603 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +159,8 @@
 				3DC3AAA41E76271200DCD603 /* TrivitBuild1.app */,
 				3DC3AAB81E76271200DCD603 /* TrivitBuild1Tests.xctest */,
 				3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */,
+				3DD8585A1E76299900E19BEB /* TrivitBuild1watch.app */,
+				3DD858661E76299900E19BEB /* TrivitBuild1watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +196,38 @@
 			path = TrivitBuild1UITests;
 			sourceTree = "<group>";
 		};
+		3DD8585B1E76299900E19BEB /* TrivitBuild1watch */ = {
+			isa = PBXGroup;
+			children = (
+				3DD8585C1E76299900E19BEB /* Interface.storyboard */,
+				3DD8585F1E76299900E19BEB /* Assets.xcassets */,
+				3DD858611E76299900E19BEB /* Info.plist */,
+			);
+			path = TrivitBuild1watch;
+			sourceTree = "<group>";
+		};
+		3DD8586A1E76299900E19BEB /* TrivitBuild1watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3DD8586D1E76299900E19BEB /* InterfaceController.swift */,
+				3D625B751E7754870098CC91 /* PeakCadenceArray.swift */,
+				3DD8586F1E76299900E19BEB /* ExtensionDelegate.swift */,
+				3DD858711E76299900E19BEB /* NotificationController.swift */,
+				3DD858731E76299900E19BEB /* Assets.xcassets */,
+				3DD858751E76299900E19BEB /* Info.plist */,
+				3DD8586B1E76299900E19BEB /* Supporting Files */,
+			);
+			path = "TrivitBuild1watch Extension";
+			sourceTree = "<group>";
+		};
+		3DD8586B1E76299900E19BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD8586C1E76299900E19BEB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +238,12 @@
 				3DC3AAA01E76271200DCD603 /* Sources */,
 				3DC3AAA11E76271200DCD603 /* Frameworks */,
 				3DC3AAA21E76271200DCD603 /* Resources */,
+				3DD858801E76299900E19BEB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3DD858771E76299900E19BEB /* PBXTargetDependency */,
 			);
 			name = TrivitBuild1;
 			productName = TrivitBuild1;
@@ -181,6 +286,40 @@
 			productReference = 3DC3AAC31E76271200DCD603 /* TrivitBuild1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3DD858591E76299900E19BEB /* TrivitBuild1watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD8587F1E76299900E19BEB /* Build configuration list for PBXNativeTarget "TrivitBuild1watch" */;
+			buildPhases = (
+				3DD858581E76299900E19BEB /* Resources */,
+				3DD8587E1E76299900E19BEB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD858691E76299900E19BEB /* PBXTargetDependency */,
+			);
+			name = TrivitBuild1watch;
+			productName = TrivitBuild1watch;
+			productReference = 3DD8585A1E76299900E19BEB /* TrivitBuild1watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3DD858651E76299900E19BEB /* TrivitBuild1watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD8587D1E76299900E19BEB /* Build configuration list for PBXNativeTarget "TrivitBuild1watch Extension" */;
+			buildPhases = (
+				3DD858621E76299900E19BEB /* Sources */,
+				3DD858631E76299900E19BEB /* Frameworks */,
+				3DD858641E76299900E19BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrivitBuild1watch Extension";
+			productName = "TrivitBuild1watch Extension";
+			productReference = 3DD858661E76299900E19BEB /* TrivitBuild1watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +347,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3DC3AAA31E76271200DCD603;
 					};
+					3DD858591E76299900E19BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZLLMX3ME8;
+						ProvisioningStyle = Automatic;
+					};
+					3DD858651E76299900E19BEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VZLLMX3ME8;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 3DC3AA9F1E76271200DCD603 /* Build configuration list for PBXProject "TrivitBuild1" */;
@@ -226,6 +375,8 @@
 				3DC3AAA31E76271200DCD603 /* TrivitBuild1 */,
 				3DC3AAB71E76271200DCD603 /* TrivitBuild1Tests */,
 				3DC3AAC21E76271200DCD603 /* TrivitBuild1UITests */,
+				3DD858591E76299900E19BEB /* TrivitBuild1watch */,
+				3DD858651E76299900E19BEB /* TrivitBuild1watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +403,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD858581E76299900E19BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD858601E76299900E19BEB /* Assets.xcassets in Resources */,
+				3DD8585E1E76299900E19BEB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD858641E76299900E19BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD858741E76299900E19BEB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +451,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3DD858621E76299900E19BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D625B761E7754870098CC91 /* PeakCadenceArray.swift in Sources */,
+				3DD858721E76299900E19BEB /* NotificationController.swift in Sources */,
+				3DD858701E76299900E19BEB /* ExtensionDelegate.swift in Sources */,
+				3DD8586E1E76299900E19BEB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +474,16 @@
 			isa = PBXTargetDependency;
 			target = 3DC3AAA31E76271200DCD603 /* TrivitBuild1 */;
 			targetProxy = 3DC3AAC41E76271200DCD603 /* PBXContainerItemProxy */;
+		};
+		3DD858691E76299900E19BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD858651E76299900E19BEB /* TrivitBuild1watch Extension */;
+			targetProxy = 3DD858681E76299900E19BEB /* PBXContainerItemProxy */;
+		};
+		3DD858771E76299900E19BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD858591E76299900E19BEB /* TrivitBuild1watch */;
+			targetProxy = 3DD858761E76299900E19BEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,6 +502,14 @@
 				3DC3AAB11E76271200DCD603 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD8585C1E76299900E19BEB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD8585D1E76299900E19BEB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,7 +615,7 @@
 				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = TrivitBuild1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1;
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,7 +628,7 @@
 				DEVELOPMENT_TEAM = VZLLMX3ME8;
 				INFOPLIST_FILE = TrivitBuild1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UMass.TrivitBuild1;
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -495,6 +692,76 @@
 			};
 			name = Release;
 		};
+		3DD858791E76299900E19BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				IBSC_MODULE = TrivitBuild1watch_Extension;
+				INFOPLIST_FILE = TrivitBuild1watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3DD8587A1E76299900E19BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				IBSC_MODULE = TrivitBuild1watch_Extension;
+				INFOPLIST_FILE = TrivitBuild1watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		3DD8587B1E76299900E19BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = "TrivitBuild1watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		3DD8587C1E76299900E19BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = VZLLMX3ME8;
+				INFOPLIST_FILE = "TrivitBuild1watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UMass.HelloTrivit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +781,7 @@
 				3DC3AACE1E76271200DCD603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC3AACF1E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +790,7 @@
 				3DC3AAD11E76271200DCD603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC3AAD21E76271200DCD603 /* Build configuration list for PBXNativeTarget "TrivitBuild1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +799,25 @@
 				3DC3AAD41E76271200DCD603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD8587D1E76299900E19BEB /* Build configuration list for PBXNativeTarget "TrivitBuild1watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD8587B1E76299900E19BEB /* Debug */,
+				3DD8587C1E76299900E19BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD8587F1E76299900E19BEB /* Build configuration list for PBXNativeTarget "TrivitBuild1watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD858791E76299900E19BEB /* Debug */,
+				3DD8587A1E76299900E19BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

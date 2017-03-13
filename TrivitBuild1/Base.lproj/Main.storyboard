@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrivitBuild1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,77 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFk-b0-gvz">
+                                <rect key="frame" x="16" y="28" width="93" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="tzI-nT-Ddt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAo-EO-odW">
+                                <rect key="frame" x="16" y="136" width="93" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWC-9q-zsG">
+                                <rect key="frame" x="16" y="248" width="93" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZU-gh-f14" userLabel="stepCount">
+                                <rect key="frame" x="317" y="64" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e5-yr-I05" userLabel="cadenceCount">
+                                <rect key="frame" x="317" y="172" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgg-wI-Rob" userLabel="paceCount">
+                                <rect key="frame" x="317" y="284" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yAo-EO-odW" firstAttribute="leading" secondItem="zWC-9q-zsG" secondAttribute="leading" id="2gY-Rv-oOb"/>
+                            <constraint firstItem="4e5-yr-I05" firstAttribute="leading" secondItem="Cgg-wI-Rob" secondAttribute="leading" id="6p7-fF-RAX"/>
+                            <constraint firstItem="yAo-EO-odW" firstAttribute="baseline" secondItem="4e5-yr-I05" secondAttribute="baseline" id="8CL-LH-fmH"/>
+                            <constraint firstItem="yAo-EO-odW" firstAttribute="top" secondItem="cFk-b0-gvz" secondAttribute="bottom" constant="51" id="CcQ-FA-CmL"/>
+                            <constraint firstItem="zWC-9q-zsG" firstAttribute="baseline" secondItem="Cgg-wI-Rob" secondAttribute="baseline" id="Ggb-Rw-wud"/>
+                            <constraint firstItem="cFk-b0-gvz" firstAttribute="trailing" secondItem="yAo-EO-odW" secondAttribute="trailing" id="MsS-C2-3Ck"/>
+                            <constraint firstItem="zWC-9q-zsG" firstAttribute="top" secondItem="yAo-EO-odW" secondAttribute="bottom" constant="55" id="Nxu-1Y-R6s"/>
+                            <constraint firstItem="eZU-gh-f14" firstAttribute="leading" secondItem="4e5-yr-I05" secondAttribute="leading" id="OSR-tG-ZsD"/>
+                            <constraint firstItem="4e5-yr-I05" firstAttribute="top" secondItem="eZU-gh-f14" secondAttribute="bottom" constant="87" id="SY9-j0-ph3"/>
+                            <constraint firstItem="cFk-b0-gvz" firstAttribute="leading" secondItem="yAo-EO-odW" secondAttribute="leading" id="bCY-ek-GVU"/>
+                            <constraint firstItem="cFk-b0-gvz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bnz-Lf-NSb"/>
+                            <constraint firstItem="Cgg-wI-Rob" firstAttribute="top" secondItem="4e5-yr-I05" secondAttribute="bottom" constant="91" id="ciq-mk-L4a"/>
+                            <constraint firstItem="eZU-gh-f14" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="hM6-Qi-IO1"/>
+                            <constraint firstItem="cFk-b0-gvz" firstAttribute="baseline" secondItem="eZU-gh-f14" secondAttribute="baseline" id="mTW-4N-pmc"/>
+                            <constraint firstItem="cFk-b0-gvz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="q0m-U1-lkP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eZU-gh-f14" secondAttribute="trailing" constant="31" id="qlu-yT-QUh"/>
+                            <constraint firstItem="yAo-EO-odW" firstAttribute="trailing" secondItem="zWC-9q-zsG" secondAttribute="trailing" id="zhm-dk-fxy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cadenceCount" destination="4e5-yr-I05" id="sxk-Bb-lgD"/>
+                        <outlet property="paceCount" destination="Cgg-wI-Rob" id="t2U-eo-Tbj"/>
+                        <outlet property="stepCount" destination="eZU-gh-f14" id="1uM-qU-9Jx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>
